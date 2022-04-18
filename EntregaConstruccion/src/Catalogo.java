@@ -31,5 +31,7 @@ public class Catalogo
       auto.mostrarCaracteristicas();  
     for (Scooter scooter: scooters)  
       scooter.mostrarCaracteristicas();  
+    reader.close();
   }  
+  
 }
